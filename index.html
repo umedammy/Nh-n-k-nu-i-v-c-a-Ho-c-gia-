@@ -1,95 +1,359 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dự án nuôi vk đến khi tốt nghiệp - website đọc truyện">
-  <title>Dự án nuôi vk đến khi tốt nghiệp</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="logo" href="index.html">Dự án nuôi vk</a>
-      <nav>
-        <a href="#gioi-thieu">Giới thiệu</a>
-        <a href="#nhan-vat">Nhân vật</a>
-        <a href="#chap">Danh sách chap</a>
-      </nav>
+<!-- ===== PHẦN ĐẦU TRANG TRUYỆN ===== -->
+
+<section class="story-header">
+
+    <!-- BÌA TRUYỆN -->
+    <div class="story-cover">
+        <img src="cover.jpg" alt="Bìa truyện">
     </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="cover-placeholder">
-          <span>ẢNH BÌA</span>
-          <small>Thay bằng ảnh của bạn</small>
+    <!-- TÊN TRUYỆN -->
+    <h1>DỰ ÁN NUÔI VK ĐẾN KHI TỐT NGHIỆP</h1>
+
+    <p class="story-intro">
+        Một câu chuyện tình bắt đầu từ sự chăm sóc tưởng như đơn thuần,
+        nhưng càng ở bên nhau, những cảm xúc vốn được che giấu lại càng
+        trở nên khó kiểm soát.
+    </p>
+
+    <div class="story-info">
+        <span>💗 BL</span>
+        <span>📖 Tình cảm</span>
+        <span>🏫 Thanh xuân</span>
+        <span>✨ Đang cập nhật</span>
+    </div>
+
+</section>
+
+
+<!-- ===== GIỚI THIỆU ===== -->
+
+<section class="story-description">
+
+    <h2>🌸 Giới thiệu</h2>
+
+    <p>
+        Vũ Thịnh Duy vốn chỉ nghĩ rằng mình đang nhận được sự giúp đỡ
+        từ một người anh lớn.
+    </p>
+
+    <p>
+        Nhưng Hoắc Kiến Vương dường như lại không nghĩ đơn giản như vậy.
+        Từ những lần chăm sóc, những lần vô tình bảo vệ cho đến những
+        ánh mắt mang theo sự chiếm hữu, khoảng cách giữa hai người
+        ngày càng trở nên mơ hồ.
+    </p>
+
+    <p>
+        Một người cố gắng giả vờ rằng tất cả chỉ là quan tâm.
+        Một người càng ngày càng không biết phải đối diện với cảm xúc
+        của chính mình như thế nào.
+    </p>
+
+</section>
+
+
+<!-- ===== DANH SÁCH NHÂN VẬT ===== -->
+
+<section class="characters">
+
+    <h2>🌷 Nhân vật</h2>
+
+    <div class="character-list">
+
+
+        <!-- HOẮC KIẾN VƯƠNG -->
+        <div class="character-card">
+
+            <img src="hoac-kien-vuong.jpg"
+                 alt="Hoắc Kiến Vương">
+
+            <div class="character-info">
+
+                <h3>Hoắc Kiến Vương</h3>
+
+                <p class="role">
+                    Nam chính
+                </p>
+
+                <p>
+                    Người luôn tỏ ra bình tĩnh và lý trí,
+                    nhưng lại đặc biệt để tâm đến Vũ Thịnh Duy.
+                    Càng quan tâm, sự chiếm hữu trong anh càng
+                    khó che giấu.
+                </p>
+
+            </div>
+
         </div>
-        <div class="hero-content">
-          <p class="eyebrow">TRUYỆN BL • ROMANCE</p>
-          <h1>Dự án nuôi vk đến khi tốt nghiệp</h1>
-          <p class="intro">Một câu chuyện tình cảm bắt đầu từ sự chăm sóc, những lần vô tình rung động và một người càng ngày càng không muốn buông tay.</p>
-          <div class="buttons">
-            <a class="btn primary" href="chap.html?chap=1">Đọc từ đầu</a>
-            <a class="btn secondary" href="#chap">Xem danh sách chap</a>
-          </div>
+
+
+        <!-- VŨ THỊNH DUY -->
+        <div class="character-card">
+
+            <img src="vu-thinh-duy.jpg"
+                 alt="Vũ Thịnh Duy">
+
+            <div class="character-info">
+
+                <h3>Vũ Thịnh Duy</h3>
+
+                <p class="role">
+                    Nhân vật trung tâm
+                </p>
+
+                <p>
+                    Một cậu trai có vẻ ngoài mềm mại, dễ khiến
+                    người khác muốn bảo vệ. Thịnh Duy dần nhận ra
+                    sự quan tâm của Hoắc Kiến Vương không còn
+                    đơn thuần như trước.
+                </p>
+
+            </div>
+
         </div>
-      </div>
-    </section>
 
-    <section id="gioi-thieu" class="section">
-      <div class="container">
-        <h2>Giới thiệu truyện</h2>
-        <div class="card">
-          <p>Đây là khu vực để bạn viết phần giới thiệu, văn án, thể loại, tình trạng cập nhật hoặc lời nhắn dành cho độc giả.</p>
-          <div class="tags">
-            <span>BL</span><span>Romance</span><span>Đời thường</span><span>HE</span>
-          </div>
+
+        <!-- BÙI NHẬT THANH -->
+        <div class="character-card">
+
+            <img src="bui-nhat-thanh.jpg"
+                 alt="Bùi Nhật Thanh">
+
+            <div class="character-info">
+
+                <h3>Bùi Nhật Thanh</h3>
+
+                <p class="role">
+                    Nhân vật phụ
+                </p>
+
+                <p>
+                    Người có mối quan hệ thân thiết với Hoắc Kiến Vương.
+                    Sự xuất hiện của anh đôi khi cũng khiến những
+                    cảm xúc vốn được che giấu trở nên rõ ràng hơn.
+                </p>
+
+            </div>
+
         </div>
-      </div>
-    </section>
 
-    <section id="nhan-vat" class="section alt">
-      <div class="container">
-        <h2>Nhân vật</h2>
-        <div class="character-grid">
-          <article class="character">
-            <div class="character-image">ẢNH NHÂN VẬT</div>
-            <h3>Hoắc Kiến Vương</h3>
-            <p>Thêm mô tả nhân vật tại đây.</p>
-          </article>
-          <article class="character">
-            <div class="character-image">ẢNH NHÂN VẬT</div>
-            <h3>Vũ Thịnh Duy</h3>
-            <p>Thêm mô tả nhân vật tại đây.</p>
-          </article>
-          <article class="character">
-            <div class="character-image">ẢNH NHÂN VẬT</div>
-            <h3>Bùi Nhật Thanh</h3>
-            <p>Thêm mô tả nhân vật tại đây.</p>
-          </article>
-          <article class="character">
-            <div class="character-image">ẢNH NHÂN VẬT</div>
-            <h3>Lập Minh</h3>
-            <p>Thêm mô tả nhân vật tại đây.</p>
-          </article>
+
+        <!-- LẬP MINH -->
+        <div class="character-card">
+
+            <img src="lap-minh.jpg"
+                 alt="Lập Minh">
+
+            <div class="character-info">
+
+                <h3>Lập Minh</h3>
+
+                <p class="role">
+                    Đàn anh theo đuổi Thịnh Duy
+                </p>
+
+                <p>
+                    Một đàn anh chủ động và thẳng thắn.
+                    Sự xuất hiện của Lập Minh khiến mối quan hệ
+                    giữa Hoắc Kiến Vương và Thịnh Duy dần trở nên
+                    căng thẳng hơn.
+                </p>
+
+            </div>
+
         </div>
-      </div>
-    </section>
 
-    <section id="chap" class="section">
-      <div class="container">
-        <h2>Danh sách chap</h2>
-        <div class="chapter-list" id="chapterList"></div>
-      </div>
-    </section>
-  </main>
 
-  <footer>
-    <div class="container">© 2026 Dự án nuôi vk đến khi tốt nghiệp</div>
-  </footer>
+        <!-- HOẮC DƯ AN -->
+        <div class="character-card">
 
-  <script src="script.js"></script>
-</body>
-</html>
+            <img src="hoac-du-an.jpg"
+                 alt="Hoắc Dư An">
+
+            <div class="character-info">
+
+                <h3>Hoắc Dư An</h3>
+
+                <p class="role">
+                    Thụ
+                </p>
+
+                <p>
+                    Cháu trai của Hoắc Kiến Vương.
+                    Một nhân vật có tính cách riêng biệt,
+                    đồng thời sở hữu mối quan hệ khá mập mờ
+                    với Bùi Nhật Thanh.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ===== NÚT ĐỌC TRUYỆN ===== -->
+
+<div class="read-story">
+
+    <a href="chap.html">
+        📖 Bắt đầu đọc
+    </a>
+
+</div>
+
+
+<!-- ===== CSS CHO PHẦN ĐẦU ===== -->
+
+<style>
+
+    .story-header {
+        text-align: center;
+        padding: 30px 15px 20px;
+    }
+
+    .story-cover {
+        max-width: 500px;
+        margin: 0 auto 25px;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.18);
+    }
+
+    .story-cover img {
+        width: 100%;
+        display: block;
+    }
+
+    .story-header h1 {
+        font-size: 30px;
+        margin: 20px 0 12px;
+        line-height: 1.3;
+    }
+
+    .story-intro {
+        max-width: 700px;
+        margin: auto;
+        line-height: 1.8;
+        color: #666;
+        font-size: 16px;
+    }
+
+    .story-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 18px;
+    }
+
+    .story-info span {
+        padding: 7px 13px;
+        border-radius: 20px;
+        background: #f5f5f5;
+        font-size: 13px;
+    }
+
+
+    .story-description {
+        max-width: 750px;
+        margin: 30px auto;
+        padding: 25px;
+        background: #fafafa;
+        border-radius: 18px;
+        line-height: 1.8;
+    }
+
+    .story-description h2,
+    .characters h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .characters {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 15px;
+    }
+
+    .character-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .character-card {
+        overflow: hidden;
+        border-radius: 18px;
+        background: white;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+    }
+
+    .character-card img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .character-info {
+        padding: 18px;
+    }
+
+    .character-info h3 {
+        margin: 0 0 5px;
+        font-size: 21px;
+    }
+
+    .character-info .role {
+        color: #888;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .character-info p:last-child {
+        line-height: 1.7;
+        color: #555;
+    }
+
+
+    .read-story {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .read-story a {
+        display: inline-block;
+        padding: 13px 28px;
+        border-radius: 30px;
+        background: #222;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+    /* ĐIỆN THOẠI */
+    @media (max-width: 650px) {
+
+        .story-header h1 {
+            font-size: 24px;
+        }
+
+        .character-list {
+            grid-template-columns: 1fr;
+        }
+
+        .character-card img {
+            height: auto;
+            max-height: 500px;
+        }
+
+    }
+
+      </style>
